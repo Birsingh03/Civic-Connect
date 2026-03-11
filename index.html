@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CivicConnect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="intro">
+        <h1 class="logo-header">
+            <span class="logo">CivicConnect</span>
+        </h1>
+    </div>
+
+    <nav class="navbar">
+    <div class="navdiv">
+        <div class="CivicConnect"><a href="index.html">Civic Connect</a></div>
+        
+        <!-- Hamburger Menu (Hidden checkbox) -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        
+        <!-- Hamburger Icon (3 lines) -->
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        
+        <!-- Navigation Menu -->
+        <ul class="nav-menu">
+            <li><a href="#report-a-complaint" class="nav-link">Report</a></li>
+            <li><a href="#about-section" class="nav-link">About</a></li>
+            <li><a href="#feature-section" class="nav-link">Features</a></li>
+            <a href="#" class="get-started-btn">Get Started</a>
+            <button class="theme-toggle" id="themeToggle" title="Toggle dark mode">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </ul>
+    </div>
+</nav>
+
+
+    <div class="desc">
+        <h2 class="tagline">
+            Building <span class="highlight">Community,</span> Fostering <span class="highlight">Responsibility</span>
+        </h2>
+        <p class="descc">Civic Connect is a web-based platform that allows citizens to report civic issues <br>such as
+            garbage dumps, potholes, broken street lights, and water leaks in their locality. Users can
+            upload a photo of the issue along with its location and description. The complaint is then forwarded to
+            the concerned authorities for action.
+        </p>
+        <img src="icon.svg" alt="Icon" class="hero-img">
+    </div>
+    <section id="report-a-complaint">
+    <div class="report">
+        <button class="report-btn">Report a Complaint</button>
+    </div>
+    </section>
+    <section id="about-section">
+    <div class="about">
+        <h3 class="about-header">About Civic Connect</h3>
+        <div class="about-desc">
+            <ul>
+                <li>
+                    <br>
+                    <h3 class="about-heading"><span class="highlight">🌟 Why Civic Connect exists</span></h3><br>
+                    <br>
+                    <div class="aboutt">Civic Connect was created to provide a simple, transparent, and efficient way for citizens to report civic issues and ensure they are addressed by the concerned authorities. It aims to strengthen communication, accountability, and community involvement in maintaining public spaces.
+                    </div>
+                </li>
+                    <li>
+                        <br>
+                        <h3 class="about-heading"><span class="highlight">🚀 Our Mission</span></h3><br>
+                        <br>
+                        <div class="aboutt">Our mission is to empower citizens to take an active role in improving their communities by providing a user-friendly platform for reporting and tracking civic issues. We strive to enhance transparency, accountability, and responsiveness in local governance.</div>
+                    </li>
+                    <li>
+                        <br>
+                        <h3 class="about-heading"><span class="highlight">🌐 Our Vision</span></h3><br>
+                        <br><div class="aboutt">Our vision is to build smarter and cleaner cities by strengthening collaboration between citizens and authorities through technology, transparency, and accountability. </div>
+                    </li>
+                    
+            </ul>
+        </div>
+        </section>
+        <section id="feature-section"></section>
+        <div class="Features">
+            <h3 class="feature-header">Features</h3>
+            <div class="feature-desc">
+                <ul>
+                    <li>
+                        <br>
+                        <h3 class="feature-heading"><span class="highlight">📍 Report Issues in Seconds </span></h3><br>
+                        <br>
+                        <div class="featuress">Easily report civic problems like garbage dumps, potholes, broken street
+                            lights and water leakage by
+                            <br>
+                            uploading a photo and short description.
+                        </div>
+                    </li>
+                    <li>
+                        <br>
+                        <h3 class="feature-heading"><span class="highlight">🗺️ Automatic Location Detection</span></h3>
+                        <br>
+                        <br>
+                        <div class="featuress">
+                            The app automatically captures your location so authorities know exactly where the issue
+                            exists
+                            — no need to explain directions.
+                        </div>
+                    </li>
+                    <li>
+                        <br>
+                        <h3 class="feature-heading"><span class="highlight">📊 Real-Time Complaint Tracking</span></h3>
+                        <br>
+                        <br>
+                        <div class="featuress">
+                            Track the progress of your complaint from Pending → In Progress → Resolved directly inside
+                            the
+                            app.
+                        </div>
+                    </li>
+                    <li>
+                        <br>
+                        <h3 class="feature-heading"><span class="highlight">👥 Community Participation</span></h3><br>
+                        <br>
+                        <div class="featuress">
+                            Citizens can view, support and comment on issues reported by others, helping highlight
+                            important
+                            problems faster.
+                        </div>
+                    </li>
+                    <li>
+                        <br>
+                        <h3 class="feature-heading"><span class="highlight">🚨 Priority Based Resolution</span></h3><br>
+                        <br>
+                        <div class="featuress">
+                            Problems reported by multiple people automatically gain higher priority so serious issues
+                            are
+                            solved first.
+                    <li>
+                        <br>
+                        <h3 class="feature-heading"><span class="highlight">🌍 Transparent Governance</span></h3><br>
+                        <br>
+                        <div class="featuress">
+                            Everyone can see reported issues in their area, increasing accountability and encouraging
+                            faster
+                            action.
+                    </li>
+            </div>
+            </li>
+            </ul>
+        </div>
+        <button id="backToTop">↑</button>
+    </div>
+</section>
+    <section class="stats">
+        <div class="stat-box">
+            <h2 class="counter" data-target="245">0</h2>
+            <p>Resolved Cases</p>
+        </div>
+
+        <div class="stat-box">
+            <h2 class="counter" data-target="89">0</h2>
+            <p>Pending Cases</p>
+        </div>
+
+        <div class="stat-box">
+            <h2 class="counter" data-target="1200">0</h2>
+            <p>Active Users</p>
+        </div>
+
+        <div class="stat-box">
+            <h2 class="counter" data-target="15">0</h2>
+            <p>Areas Covered</p>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Civic Connect</h4>
+                <p>Building Community, Fostering Responsibility.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#report-a-complaint">Report</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#feature-section">Features</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <p><a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Civic Connect. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="app.js"> </script>
+</body>
+
+</html>
